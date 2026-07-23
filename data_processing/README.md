@@ -9,9 +9,9 @@ python 03_build_dataset.py --dynamic-path dynamic.npz --output dataset.npz --sta
 python 04_make_example_data.py --dynamic-path dynamic.npz --static-path static.npz --stats-path stats.pkl --output-dir ../data_example --overwrite
 ```
 
-`01` extracts 6-hourly EMARS fields and derives CDOD at 610 Pa. `02` creates
-eight terrain/geographic channels at 720 x 1440. `03` adds six astronomical
-features and builds 40-to-12 samples. `04` exports one MY25 example.
+`01` extracts 6-hourly EMARS fields and derives CDOD at 610 Pa. 
+`02` creates eight terrain/geographic channels at 720 x 1440.
+`03` adds six astronomical features and builds 40-to-12 samples. 
+`04` exports one MY25 example.
 
-Do not upload the full EMARS or MOLA source data. Obtain and cite them from
-their official providers.
+Do not upload the full EMARS or MOLA source data. Obtain and cite them from their official providers.
